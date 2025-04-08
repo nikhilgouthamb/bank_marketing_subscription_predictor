@@ -16,7 +16,7 @@ model_dict = {
 feature_names = [
     'age', 'balance', 'duration', 'campaign'
 ] + [  # Add all one-hot encoded job columns used
-    'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid',
+    'job_unknown.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid',
     'job_management', 'job_retired', 'job_self-employed', 'job_services',
     'job_student', 'job_technician', 'job_unemployed'
 ]
