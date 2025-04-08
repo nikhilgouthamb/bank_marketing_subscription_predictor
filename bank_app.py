@@ -41,7 +41,7 @@ user_input['campaign'] = st.sidebar.slider("Number of contacts in campaign", 1, 
 
 # One-hot encode 'job' selection
 job_options = [
-    'admin.', 'blue-collar', 'entrepreneur', 'housemaid', 'management',
+    'unknown', 'blue-collar', 'entrepreneur', 'housemaid', 'management',
     'retired', 'self-employed', 'services', 'student', 'technician', 'unemployed'
 ]
 job = st.sidebar.selectbox("Job", job_options)
